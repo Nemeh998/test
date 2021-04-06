@@ -1,0 +1,44 @@
+header div img {
+    width: 100%;
+    background-color: rgb(11, 151, 18);
+    position: static;
+    }
+    header div h2 p:hover {
+        background-color: rgb(250, 190, 60);
+      }
+    
+    div h2 p{
+        position: absolute;
+        top: 90%;
+        background-color:yellow ;
+    float:left;
+    
+    border-color: yellow;
+    border: yellow;
+    border-width: 70%;
+    }
+    
+    
+     .box{
+      
+    padding-top: 10px;
+    padding-left: 20px;
+     float: right;
+      width: 50%;
+      border-top: 5px solid yellow;
+     }
+      
+     
+     .box1{
+    
+      padding-top: 10px;
+      padding-left: 20px;
+      float:left;
+        width: 50%;
+        border-top: 5px solid yellow;
+       }
+    
+       /* .box3{
+         width: 50%;
+         display:inline-block;
+       } */
