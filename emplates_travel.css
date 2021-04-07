@@ -20,11 +20,11 @@ header div img {
     
     
      .box{
-      
+      /* position: relative; */
     padding-top: 10px;
     padding-left: 20px;
-     float: right;
-      width: 50%;
+     /* float: right; */
+      /* width: 50%; */
       border-top: 5px solid yellow;
      }
       
@@ -33,12 +33,21 @@ header div img {
     
       padding-top: 10px;
       padding-left: 20px;
-      float:left;
-        width: 50%;
+      /* float:left; */
+        /* width: 50%; */
         border-top: 5px solid yellow;
        }
     
-       /* .box3{
+       .box3{
+         float: left;
          width: 50%;
-         display:inline-block;
-       } */
+         /* display:inline-block; */ */
+         position:left;
+       }
+       .box4{
+         float:right;
+        position:right;
+        width: 50%;
+        /* display:inline-block; */
+       
+      }
